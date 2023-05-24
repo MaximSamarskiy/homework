@@ -1,0 +1,137 @@
+:root {
+  background: white;
+}
+* {
+  color: black;
+}
+h1 {
+  color: blue;
+}
+p.green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+section .box p {
+  color: red;
+}
+section .box div {
+  color: green;
+}
+.brown {
+  background: brown;
+  color: white;
+}
+ul > li {
+  color: red;
+}
+.header-button + span {
+  background: red;
+}
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+.salo,
+#bread {
+  background: yellow;
+}
+.first-task :first-child {
+  color: white;
+}
+.first-task li {
+  color: black;
+}
+.second-task div:first-child {
+  color: yellow;
+}
+.second-task li {
+  color: black;
+}
+.third-task div:first-child {
+  color: yellow;
+}
+.third-task li {
+  color: black;
+}
+.four-task :last-child {
+  color: yellow;
+}
+.four-task li {
+  color: black;
+}
+.five-task div:last-child {
+  color: white;
+}
+.five-task li {
+  color: black;
+}
+.only-child-task :only-child {
+  color: red;
+}
+.seven-task p:first-of-type {
+  color: red;
+}
+.eight-task p:last-of-type {
+  color: red;
+}
+.nine-task p:only-of-type {
+  color: yellow;
+}
+.lesson-three-task-one a[href] {
+  color: white;
+}
+.lesson-three-task-one li {
+  color: black;
+}
+.lesson-three-task-two [value] {
+  color: yellow;
+}
+.lesson-three-task-three [value] {
+  color: red;
+}
+.lesson-three-task-four [class='primary action'] {
+  color: blue;
+}
+.lesson-three-task-five [class|='secondary'] {
+  color: red;
+}
+.lesson-three-task-six [class^='b'] {
+  background: white;
+  color: green;
+}
+.lesson-three-task-six li {
+  color: black;
+}
+.lesson-three-task-seven [class*='on'] {
+  color: green;
+}
+.lesson-three-task-seven li {
+  color: black;
+}
+.lesson-three-task-eight [class$='s'] {
+  background: white;
+  color: blue;
+}
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+.lesson-three-task-ten::first-line {
+  color: yellow;
+}
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+}
+.lesson-three-task-twelve li::before {
+  content: '>';
+}
+.lesson-three-task-twelve li {
+  color: black;
+}
+.lesson-three-task-thirteen li::after {
+  content: '>';
+}
+.lesson-three-task-thirteen li {
+  color: black;
+}
